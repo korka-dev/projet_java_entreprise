@@ -6,8 +6,8 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: "Amadou_dev301030"
-      MYSQL_DATABASE: "TestProjetJava"
-      MYSQL_USER: "amadou-dev"
-      MYSQL_PASSWORD: "Amadou_dev301030"
+      MYSQL_ROOT_PASSWORD: "user_password"
+      MYSQL_DATABASE: "gestion_entreprise"
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "user_password"
 
